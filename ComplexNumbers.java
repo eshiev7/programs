@@ -1,4 +1,4 @@
-package com.ksu.ru;
+package ru.nsu.home;
 
 public class ComplexNumbers {
 
