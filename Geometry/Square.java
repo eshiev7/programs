@@ -30,7 +30,7 @@ public class Square extends Figure{
         this.y1 += y;
         this.y2 += y;
    }
-    //---------------ChangeSize---------------------
+    //---------------ChangeSize--------------------
     public void size(int a){
         this.x2 += a;
         this.y2 += a;
