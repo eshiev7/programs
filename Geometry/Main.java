@@ -1,8 +1,5 @@
 package ru.nsu.home;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -35,5 +32,13 @@ public class Main {
         kek3.size(1);
         System.out.println(kek3.getInfo());
         System.out.println(kek3.getArea());
+        System.out.println("-----------------------------------------");
+        Figure[] kek = new Figure[3];
+        kek[0] = kek1;
+        kek[1] = kek2;
+        kek[2] = kek3;
+        for(int i = 0; i <= kek.length - 1; i++){
+            System.out.println(kek[i].getArea());
+        }
     }
 }
