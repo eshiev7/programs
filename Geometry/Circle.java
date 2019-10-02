@@ -1,6 +1,6 @@
 package ru.nsu.home;
 
-public class Circle {
+public class Circle extends Figure{
 
     private int r;
     private int x1;
